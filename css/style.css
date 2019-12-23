@@ -115,6 +115,7 @@ header {
     border-radius: 5px;
 }
 
+/* starting about section */
 .container{
     width: 100%;
     display: flex;
@@ -138,3 +139,4 @@ header {
  .about img{
     width: 100%;
 } 
+/* ending about section */
