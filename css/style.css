@@ -5,6 +5,7 @@
     font-family: tahoma;
 }
 
+/* starting about section */
 .container{
     width: 100%;
     display: flex;
@@ -28,5 +29,4 @@
  .about img{
     width: 100%;
 } 
-
-
+/* ending about section */
