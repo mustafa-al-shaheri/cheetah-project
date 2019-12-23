@@ -140,6 +140,35 @@ header {
     width: 100%;
 }
 /* ending about section */
+/* starting featurs section */
+.child2{
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    text-align: center;
+    color: #eee;
+    padding: 10px;
+    padding-top: 20px;
+}
+ .featurs{
+     width: 100%;
+     background-color: #000;
+     color: #eee;
+     padding: 30px;
+ }
+
+ .featurs h1{
+    text-align: center;
+}
+
+ .featurs li{
+    font-size: 55px;
+    color: #eee;
+    padding-bottom: 10px;
+} 
+/* ending featurs section */
 /* start services section */
 #services h2 {
     text-align: center;
