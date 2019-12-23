@@ -72,6 +72,7 @@ header {
     height: 90vh;
 }
 
+/* starting about section */
 .container{
     width: 100%;
     display: flex;
@@ -95,5 +96,4 @@ header {
  .about img{
     width: 100%;
 } 
-
-
+/* ending about section */
