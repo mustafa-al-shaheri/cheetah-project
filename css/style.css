@@ -1,3 +1,8 @@
+:root {
+    --first-color: #c52429;
+    --second-color: #b72224;
+    --third-color: #f9a61a;
+}
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 * {
     margin: 0;
@@ -75,6 +80,9 @@ header {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
+    /* background: linear-gradient(-45deg, #eb511e, #f9a61a); */
+    background: #000;
+    color: white;
 }
 .contctUs {
     width: 40%;
@@ -141,7 +149,7 @@ header {
 }
 /* ending about section */
 /* starting featurs section */
-.child2{
+.child2 {
     width: 200px;
     margin: 30px;
     padding: 20px;
@@ -152,22 +160,27 @@ header {
     padding: 10px;
     padding-top: 20px;
 }
- .featurs{
-     width: 100%;
-     background-color: #000;
-     color: #eee;
-     padding: 30px;
- }
+.featurs {
+    width: 100%;
+    background-color: #000;
+    color: #eee;
+    padding: 30px;
+}
 
- .featurs h1{
+.featurs h1 {
     text-align: center;
 }
 
- .featurs li{
+/* .featurs li {
     font-size: 55px;
     color: #eee;
     padding-bottom: 10px;
-} 
+} */
+.featurs svg {
+    font-size: 55px;
+    color: #eee;
+    padding-bottom: 10px;
+}
 /* ending featurs section */
 /* start services section */
 #services h2 {
